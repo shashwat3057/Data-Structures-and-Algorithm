@@ -29,7 +29,7 @@ int main()
     root->left = newNode(2);  
     root->right = newNode(3);  
     root->left->left = newNode(4);  
-    root->left->right = newNode(5);  
+    root->left->right = newNode(6);  
       
     cout << "Size of the tree is " << size(root);  
     return 0;  
